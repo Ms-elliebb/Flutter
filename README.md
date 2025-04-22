@@ -1,28 +1,37 @@
-# Flutter Projects Repository
+# Flutter & Dart Projects Portfolio 📱✨
 
-This repository hosts my mobile application projects developed using the Flutter framework and Dart language. You can explore various cross-platform apps, UI experiments, and reusable components built for both Android and iOS.
+Hi there! This repository contains mobile application projects developed by Elif Beyza Belhan using the Flutter framework and Dart language. Here you'll find various cross-platform apps, UI experiments, and reusable components. My goal is to showcase my ability to build modern, performant, and aesthetically pleasing applications with Flutter.
 
-## Planned Projects
+## Featured Projects 🚀
 
-### 1. Real-time Whiteboard
-*   **Concept:** A collaborative whiteboard application.
-*   **Features:**
-    *   Real-time drawing synchronization using Firebase RTDB/Firestore.
-    *   Drawing capabilities implemented with `CustomPaint`.
-    *   Basic room creation and joining functionality.
+Below are some of the projects I'm working on or planning. Details and code for each project can be found in the `README.md` file within their respective directories.
 
-### 2. IoT Control Panel (Simulated Data)
-*   **Concept:** A dashboard to monitor and potentially control IoT devices (using simulated data).
-*   **Features:**
-    *   Display simulated sensor data.
-    *   Data visualization using charts (e.g., with `fl_chart`).
-    *   Modern and responsive user interface.
+### 1. Real-time Whiteboard 🎨
+*   **Summary:** A collaborative digital whiteboard application allowing users to draw simultaneously.
+*   **Technologies:** Flutter, Dart, Firebase RTDB/Firestore (for real-time sync), CustomPaint (for drawing).
+*   **Details:** `[Whiteboard Project](./realtime_whiteboard/)` (Directory not yet created)
 
-### 3. Gamified Quiz App
-*   **Concept:** A quiz application with gamification elements.
-*   **Features:**
-    *   Topic-specific quizzes.
-    *   Progress tracking stored locally (`hive`/`shared_preferences`) or on Firebase.
-    *   Smooth animations and engaging user experience.
+### 2. IoT Control Panel (Simulated Data) 💡
+*   **Summary:** A dashboard for monitoring IoT devices (using simulated data).
+*   **Technologies:** Flutter, Dart, `fl_chart` (for data visualization), Modern UI/UX.
+*   **Details:** `[IoT Panel Project](./iot_control_panel/)` (Directory not yet created)
 
-*Note: The `.gitkeep` file in the root is a placeholder to ensure the main directory is tracked by Git, even when initially empty.* 
+### 3. Gamified Quiz App 🏆
+*   **Summary:** An engaging quiz application incorporating gamification elements.
+*   **Technologies:** Flutter, Dart, Local Storage (`hive`/`shared_preferences`) or Firebase (for progress tracking), Animations.
+*   **Details:** `[Quiz App Project](./gamified_quiz_app/)` (Directory not yet created)
+
+## Technologies I Use 🛠️
+
+Here are some of the core technologies and tools I use in the projects within this repository and in my general Flutter development workflow:
+
+*   **Language:** Dart
+*   **Framework:** Flutter
+*   **State Management:** (Provider, BLoC, Riverpod, GetX - add the ones you use here)
+*   **Backend & Cloud:** Firebase (Authentication, Firestore, Realtime Database, Cloud Functions)
+*   **Local Storage:** Hive, shared_preferences
+*   **UI & Graphics:** CustomPaint, Rive, Lottie, `fl_chart`
+*   **Testing:** Unit, Widget, Integration Testing
+*   **Other:** Git, GitHub Actions (for CI/CD)
+
+*Note: The `.gitkeep` file is a placeholder to ensure the main directory is tracked by Git, even when initially empty.* 
